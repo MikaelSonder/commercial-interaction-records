@@ -6,7 +6,7 @@
   <title>Commercial Interaction Records</title>
 
   <meta name="description"
-        content="Structured jurisdictional reference records relating to commercial interaction environments, transactional trust systems, contractual infrastructure, and cross-border dispute conditions." />
+        content="Structured jurisdictional reference records relating to commercial interaction systems, contractual environments, due diligence structures, and cross-border dispute conditions." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -16,89 +16,104 @@
       box-sizing: border-box;
     }
 
-    html {
-      background: #f5f5f2;
-    }
-
+    html,
     body {
       margin: 0;
       padding: 0;
-      background: #f5f5f2;
+      background: #ffffff;
       color: #111111;
-      font-family: Georgia, "Times New Roman", serif;
+      font-family: "Times New Roman", Times, serif;
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
 
-    .container {
-      max-width: 760px;
+    .page {
+      max-width: 980px;
       margin: 0 auto;
-      padding: 120px 34px 140px 34px;
+      padding: 64px 34px 120px 34px;
     }
 
-    .record-type {
-      font-size: 10px;
-      letter-spacing: 1.8px;
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #d9d9d9;
+      margin-bottom: 110px;
+    }
+
+    .series {
+      font-size: 11px;
+      letter-spacing: 1.4px;
       text-transform: uppercase;
-      color: #8b8b8b;
-      margin-bottom: 90px;
+      color: #7d7d7d;
+    }
+
+    .status {
+      font-size: 11px;
+      color: #8a8a8a;
+    }
+
+    .content {
+      max-width: 620px;
     }
 
     h1 {
       margin: 0;
-      font-size: 72px;
+      font-size: 52px;
+      line-height: 1.08;
       font-weight: normal;
-      line-height: 0.96;
-      letter-spacing: -2.4px;
+      letter-spacing: -1.3px;
     }
 
     .intro {
-      margin-top: 44px;
-      max-width: 620px;
-      font-size: 19px;
-      line-height: 2;
-      color: #3f3f3f;
+      margin-top: 34px;
+      font-size: 18px;
+      line-height: 1.95;
+      color: #3d3d3d;
     }
 
-    .archive-block {
-      margin-top: 120px;
-      padding-top: 26px;
-      border-top: 1px solid #ddddda;
+    .record-panel {
+      margin-top: 90px;
+      padding-left: 22px;
+      border-left: 1px solid #d8d8d8;
     }
 
-    .archive-label {
+    .panel-label {
       font-size: 10px;
-      letter-spacing: 1.6px;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
-      color: #8a8a8a;
-      margin-bottom: 24px;
+      color: #888888;
+      margin-bottom: 18px;
     }
 
-    .archive-text {
-      max-width: 620px;
-      font-size: 16px;
+    .panel-text {
+      font-size: 15px;
       line-height: 2;
       color: #262626;
+      max-width: 560px;
     }
 
-    .enter {
-      margin-top: 90px;
+    .entry {
+      margin-top: 60px;
     }
 
-    .enter a {
+    .entry a {
       text-decoration: none;
-      color: #151515;
-      font-size: 18px;
-      border-bottom: 1px solid #a9a9a4;
-      padding-bottom: 1px;
+      color: #161616;
+      font-size: 15px;
+      border-bottom: 1px solid #b5b5b5;
+      padding-bottom: 2px;
     }
 
-    .enter a:hover {
+    .entry a:hover {
       border-color: #111111;
     }
 
     .footer {
-      margin-top: 160px;
+      margin-top: 180px;
+      padding-top: 22px;
+      border-top: 1px solid #dddddd;
       font-size: 11px;
       line-height: 2;
       color: #767676;
@@ -106,21 +121,25 @@
 
     @media (max-width: 760px) {
 
-      .container {
-        padding: 80px 24px 100px 24px;
+      .page {
+        padding: 44px 22px 90px 22px;
+      }
+
+      .topline {
+        margin-bottom: 72px;
       }
 
       h1 {
-        font-size: 48px;
-        letter-spacing: -1.6px;
+        font-size: 38px;
+        line-height: 1.12;
       }
 
       .intro {
-        font-size: 17px;
+        font-size: 16px;
       }
 
-      .archive-text {
-        font-size: 15px;
+      .record-panel {
+        margin-top: 70px;
       }
     }
 
@@ -129,45 +148,55 @@
 
 <body>
 
-  <div class="container">
+  <div class="page">
 
-    <div class="record-type">
-      Commercial Interaction Records
+    <div class="topline">
+
+      <div class="series">
+        Commercial Interaction Records
+      </div>
+
+      <div class="status">
+        Active Reference Environment
+      </div>
+
     </div>
 
-    <h1>
-      Commercial<br />
-      Interaction<br />
-      Records
-    </h1>
+    <main class="content">
 
-    <div class="intro">
-      Structured jurisdictional reference records relating to commercial due diligence environments, contractual relationship systems, and dispute or arbitration conditions associated with cross-border business interaction.
-    </div>
+      <h1>
+        Commercial Interaction Records
+      </h1>
 
-    <section class="archive-block">
-
-      <div class="archive-label">
-        Reference Environment
+      <div class="intro">
+        Structured jurisdictional reference records relating to commercial due diligence environments, contractual interaction systems, and dispute or arbitration conditions associated with cross-border business relationships.
       </div>
 
-      <div class="archive-text">
-        Records are organized according to operational commercial domain and jurisdictional environment. Coverage includes transactional trust structures, contractual interaction systems, commercial dispute conditions, arbitration environments, and associated cross-border legal infrastructure.
-      </div>
+      <section class="record-panel">
 
-      <div class="enter">
-        <a href="/operational-domains/">
-          Enter Operational Domains
-        </a>
-      </div>
+        <div class="panel-label">
+          Archive Scope
+        </div>
 
-    </section>
+        <div class="panel-text">
+          Records are organized according to operational commercial domain and jurisdictional environment. Coverage includes transactional verification structures, contractual relationship conditions, dispute systems, arbitration environments, and associated commercial legal infrastructure.
+        </div>
+
+        <div class="entry">
+          <a href="/operational-domains/">
+            Access Operational Domains
+          </a>
+        </div>
+
+      </section>
+
+    </main>
 
     <footer class="footer">
 
-      Reference Series: Commercial Interaction Records<br />
-      Archive Classification: Cross-Border Commercial Reference Environment<br />
-      Record Structure: Jurisdictional Commercial Infrastructure Records<br />
+      Record Series: Commercial Interaction Records<br />
+      Classification Structure: Cross-Border Commercial Reference Environment<br />
+      Record Format: Structured Jurisdictional Infrastructure Records<br />
       Publication Status: Active
 
     </footer>
