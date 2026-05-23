@@ -6,7 +6,7 @@
   <title>Operational Domains — Commercial Interaction Records</title>
 
   <meta name="description"
-        content="Structured jurisdictional records relating to commercial due diligence environments, contractual structures, dispute systems, and cross-border commercial interaction conditions." />
+        content="Structured jurisdictional records relating to commercial due diligence environments, contractual systems, and cross-border commercial dispute conditions." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -16,157 +16,139 @@
       box-sizing: border-box;
     }
 
-    html {
-      background: #f4f3ef;
-    }
-
+    html,
     body {
       margin: 0;
       padding: 0;
-      background: #f4f3ef;
-      color: #141414;
-      font-family: Georgia, "Times New Roman", serif;
+      background: #ffffff;
+      color: #121212;
+      font-family: "Times New Roman", Times, serif;
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
     }
 
-    .shell {
-      max-width: 1180px;
+    .page {
+      max-width: 920px;
       margin: 0 auto;
-      padding: 120px 42px 120px 42px;
+      padding: 54px 34px 120px 34px;
     }
 
-    .header-grid {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      column-gap: 120px;
-      align-items: start;
+    .topline {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #dddddd;
+      padding-bottom: 16px;
+      margin-bottom: 90px;
     }
 
-    .aside-label {
-      font-size: 11px;
-      letter-spacing: 1.8px;
+    .series {
+      font-size: 10px;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
+      color: #7d7d7d;
+    }
+
+    .classification {
+      font-size: 10px;
       color: #8a8a8a;
-      margin-top: 10px;
-      margin-bottom: 22px;
     }
 
-    .aside-copy {
-      max-width: 210px;
-      font-size: 13px;
-      line-height: 1.9;
-      color: #6a6a6a;
-    }
-
-    .main-column {
-      max-width: 720px;
+    .content {
+      max-width: 620px;
     }
 
     h1 {
       margin: 0;
-      font-size: 74px;
-      line-height: 0.96;
-      letter-spacing: -2.4px;
+      font-size: 44px;
       font-weight: normal;
+      line-height: 1.1;
+      letter-spacing: -0.9px;
     }
 
     .intro {
-      margin-top: 38px;
-      max-width: 680px;
-      font-size: 21px;
-      line-height: 1.95;
-      color: #4b4b4b;
+      margin-top: 30px;
+      font-size: 17px;
+      line-height: 2;
+      color: #3d3d3d;
     }
 
-    .section {
-      margin-top: 120px;
-    }
-
-    .section-label {
-      font-size: 11px;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #7b7b7b;
-      margin-bottom: 18px;
-    }
-
-    .divider {
-      width: 100%;
-      height: 1px;
-      background: #ddddda;
-      margin-bottom: 42px;
-    }
-
-    .domain-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      row-gap: 48px;
+    .domains {
+      margin-top: 90px;
+      border-top: 1px solid #dddddd;
     }
 
     .domain {
-      max-width: 620px;
+      padding: 26px 0 30px 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .domain-label {
+      font-size: 10px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: #888888;
+      margin-bottom: 14px;
     }
 
     .domain a {
       text-decoration: none;
-      color: #161616;
-      display: inline-block;
-      border-bottom: 1px solid #b5b5af;
-      transition: border-color 0.15s ease;
-    }
-
-    .domain a:hover {
-      border-color: #111111;
+      color: #151515;
     }
 
     .domain-title {
-      font-size: 32px;
-      line-height: 1.2;
-      letter-spacing: -0.6px;
-      margin-bottom: 12px;
+      font-size: 24px;
+      line-height: 1.35;
+      margin-bottom: 14px;
+    }
+
+    .domain-title span {
+      border-bottom: 1px solid #b7b7b7;
+      padding-bottom: 1px;
+    }
+
+    .domain a:hover .domain-title span {
+      border-color: #111111;
     }
 
     .domain-description {
-      font-size: 17px;
-      line-height: 1.95;
-      color: #333333;
+      max-width: 560px;
+      font-size: 15px;
+      line-height: 2;
+      color: #313131;
     }
 
     .footer {
-      margin-top: 150px;
-      font-size: 12px;
+      margin-top: 140px;
+      padding-top: 20px;
+      border-top: 1px solid #dddddd;
+      font-size: 11px;
       line-height: 2;
-      color: #707070;
+      color: #767676;
     }
 
-    @media (max-width: 920px) {
+    @media (max-width: 760px) {
 
-      .header-grid {
-        grid-template-columns: 1fr;
-        column-gap: 0;
+      .page {
+        padding: 38px 22px 90px 22px;
       }
 
-      .main-column {
-        margin-top: 60px;
+      .topline {
+        margin-bottom: 64px;
       }
 
       h1 {
-        font-size: 54px;
-        letter-spacing: -1.8px;
+        font-size: 34px;
       }
 
       .intro {
-        font-size: 18px;
+        font-size: 16px;
       }
 
       .domain-title {
-        font-size: 26px;
+        font-size: 21px;
       }
 
-      .shell {
-        padding: 80px 26px 90px 26px;
-      }
     }
 
   </style>
@@ -174,107 +156,104 @@
 
 <body>
 
-  <div class="shell">
+  <div class="page">
 
-    <div class="header-grid">
+    <div class="topline">
 
-      <aside>
+      <div class="series">
+        Commercial Interaction Records
+      </div>
 
-        <div class="aside-label">
-          Commercial Interaction Records
-        </div>
-
-        <div class="aside-copy">
-          Structured jurisdictional reference environments relating to commercial trust systems, contractual infrastructure, and dispute conditions associated with cross-border business interaction.
-        </div>
-
-      </aside>
-
-      <main class="main-column">
-
-        <h1>
-          Operational<br />
-          Domains
-        </h1>
-
-        <div class="intro">
-          Structured commercial interaction records organized according to operational advisory domain and jurisdictional environment. Coverage includes transactional due diligence conditions, contractual structures, dispute systems, and commercial enforcement environments associated with international business relationships.
-        </div>
-
-        <section class="section">
-
-          <div class="section-label">
-            Available Domains
-          </div>
-
-          <div class="divider"></div>
-
-          <div class="domain-grid">
-
-            <div class="domain">
-
-              <a href="/operational-domains/commercial-due-diligence/">
-
-                <div class="domain-title">
-                  Commercial Due Diligence
-                </div>
-
-              </a>
-
-              <div class="domain-description">
-                Jurisdictional records relating to transactional verification environments, legal review structures, ownership validation systems, litigation review conditions, and commercial counterparty assessment procedures associated with cross-border business relationships.
-              </div>
-
-            </div>
-
-            <div class="domain">
-
-              <a href="/operational-domains/commercial-contracts/">
-
-                <div class="domain-title">
-                  Commercial Contracts
-                </div>
-
-              </a>
-
-              <div class="domain-description">
-                Structured jurisdictional records relating to contractual relationship architecture, commercial agreement systems, liability allocation environments, negotiation structures, and enforceability conditions associated with international commercial interaction.
-              </div>
-
-            </div>
-
-            <div class="domain">
-
-              <a href="/operational-domains/commercial-litigation-arbitration/">
-
-                <div class="domain-title">
-                  Commercial Litigation &amp; Arbitration
-                </div>
-
-              </a>
-
-              <div class="domain-description">
-                Jurisdictional records relating to commercial dispute systems, arbitration environments, procedural litigation structures, cross-border enforcement considerations, and judicial mechanisms associated with international business conflicts.
-              </div>
-
-            </div>
-
-          </div>
-
-        </section>
-
-        <footer class="footer">
-
-          Reference Series: Commercial Interaction Records<br />
-          Archive Classification: Cross-Border Commercial Reference Environment<br />
-          Record Structure: Jurisdictional Commercial Infrastructure Records<br />
-          Publication Status: Active
-
-        </footer>
-
-      </main>
+      <div class="classification">
+        Operational Domain Archive
+      </div>
 
     </div>
+
+    <main class="content">
+
+      <h1>
+        Operational Domains
+      </h1>
+
+      <div class="intro">
+        Structured commercial interaction records organized according to operational advisory domain and jurisdictional environment. Coverage includes transactional due diligence conditions, contractual relationship structures, and dispute or arbitration systems associated with international business interaction.
+      </div>
+
+      <section class="domains">
+
+        <div class="domain">
+
+          <div class="domain-label">
+            Transactional Verification
+          </div>
+
+          <a href="/operational-domains/commercial-due-diligence/">
+
+            <div class="domain-title">
+              <span>Commercial Due Diligence</span>
+            </div>
+
+          </a>
+
+          <div class="domain-description">
+            Jurisdictional records relating to transactional verification structures, ownership review environments, legal due diligence systems, litigation review conditions, and commercial counterparty assessment procedures associated with cross-border business relationships.
+          </div>
+
+        </div>
+
+        <div class="domain">
+
+          <div class="domain-label">
+            Contractual Infrastructure
+          </div>
+
+          <a href="/operational-domains/commercial-contracts/">
+
+            <div class="domain-title">
+              <span>Commercial Contracts</span>
+            </div>
+
+          </a>
+
+          <div class="domain-description">
+            Structured jurisdictional records relating to contractual relationship architecture, commercial agreement systems, liability allocation structures, negotiation environments, and enforceability conditions associated with international commercial interaction.
+          </div>
+
+        </div>
+
+        <div class="domain">
+
+          <div class="domain-label">
+            Dispute Environment
+          </div>
+
+          <a href="/operational-domains/commercial-litigation-arbitration/">
+
+            <div class="domain-title">
+              <span>Commercial Litigation &amp; Arbitration</span>
+            </div>
+
+          </a>
+
+          <div class="domain-description">
+            Jurisdictional records relating to commercial dispute systems, arbitration environments, procedural litigation structures, judicial mechanisms, and cross-border enforcement considerations associated with international business conflicts.
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="footer">
+
+      Record Series: Commercial Interaction Records<br />
+      Classification Structure: Cross-Border Commercial Reference Environment<br />
+      Record Format: Structured Jurisdictional Infrastructure Records<br />
+      Publication Status: Active
+
+    </footer>
 
   </div>
 
