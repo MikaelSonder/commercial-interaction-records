@@ -55,7 +55,7 @@
     }
 
     .content {
-      max-width: 620px;
+      max-width: 640px;
     }
 
     h1 {
@@ -76,29 +76,29 @@
     .records {
       margin-top: 90px;
       border-top: 1px solid #dddddd;
+      padding-top: 22px;
     }
 
     .records-header {
-      padding: 22px 0 18px 0;
       font-size: 10px;
       letter-spacing: 1.4px;
       text-transform: uppercase;
       color: #888888;
+      margin-bottom: 26px;
     }
 
-    .jurisdiction {
-      padding: 18px 0 18px 0;
-      border-top: 1px solid #e8e8e8;
-    }
-
-    .jurisdiction:first-of-type {
-      border-top: 1px solid #e2e2e2;
+    .jurisdiction-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 90px;
+      row-gap: 16px;
+      max-width: 520px;
     }
 
     .jurisdiction a {
       text-decoration: none;
       color: #161616;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.7;
     }
 
@@ -136,6 +136,11 @@
 
       .intro {
         font-size: 16px;
+      }
+
+      .jurisdiction-grid {
+        grid-template-columns: 1fr;
+        row-gap: 14px;
       }
 
       .jurisdiction a {
@@ -179,34 +184,44 @@
           Available Jurisdictions
         </div>
 
-        <div class="jurisdiction">
-          <a href="/operational-domains/commercial-due-diligence/germany/">
-            <span>Germany</span>
-          </a>
-        </div>
+        <div class="jurisdiction-grid">
 
-        <div class="jurisdiction">
-          <a href="/operational-domains/commercial-due-diligence/netherlands/">
-            <span>Netherlands</span>
-          </a>
-        </div>
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/germany/">
+              <span>Germany</span>
+            </a>
+          </div>
 
-        <div class="jurisdiction">
-          <a href="/operational-domains/commercial-due-diligence/sweden/">
-            <span>Sweden</span>
-          </a>
-        </div>
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/netherlands/">
+              <span>Netherlands</span>
+            </a>
+          </div>
 
-        <div class="jurisdiction">
-          <a href="/operational-domains/commercial-due-diligence/denmark/">
-            <span>Denmark</span>
-          </a>
-        </div>
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/sweden/">
+              <span>Sweden</span>
+            </a>
+          </div>
 
-        <div class="jurisdiction">
-          <a href="/operational-domains/commercial-due-diligence/united-kingdom/">
-            <span>United Kingdom</span>
-          </a>
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/denmark/">
+              <span>Denmark</span>
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/united-kingdom/">
+              <span>United Kingdom</span>
+            </a>
+          </div>
+
+          <div class="jurisdiction">
+            <a href="/operational-domains/commercial-due-diligence/france/">
+              <span>France</span>
+            </a>
+          </div>
+
         </div>
 
       </section>
