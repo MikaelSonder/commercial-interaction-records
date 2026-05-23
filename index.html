@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8" />
 
-  <title>Residency Records</title>
+  <title>Commercial Interaction Records</title>
 
-  <meta
-    name="description"
-    content="Structured jurisdictional records relating to residency, permits, citizenship, and international immigration environments."
-  />
+  <meta name="description"
+        content="Structured jurisdictional records relating to commercial due diligence, contractual infrastructure, dispute environments, and cross-border commercial enforcement systems." />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -18,146 +16,154 @@
       box-sizing: border-box;
     }
 
+    html {
+      background: #f3f2ee;
+    }
+
     body {
       margin: 0;
       padding: 0;
-      background: #f7f7f5;
-      color: #121212;
+      color: #111111;
       font-family: Georgia, "Times New Roman", serif;
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
+      background: #f3f2ee;
     }
 
-    .container {
-      max-width: 860px;
-      margin: 120px auto 120px auto;
-      padding: 0 38px;
+    .frame {
+      width: 100%;
+      padding: 120px 42px 120px 42px;
     }
 
-    .header {
-      max-width: 640px;
-      margin-bottom: 95px;
+    .layout {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      column-gap: 120px;
+    }
+
+    .left-column {
+      padding-top: 12px;
+    }
+
+    .system-label {
+      font-size: 11px;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+      color: #8a8a8a;
+      margin-bottom: 26px;
+    }
+
+    .system-description {
+      font-size: 13px;
+      line-height: 1.9;
+      color: #666666;
+      max-width: 220px;
+    }
+
+    .right-column {
+      max-width: 700px;
     }
 
     h1 {
-      margin: 0 0 20px 0;
-      font-size: 62px;
+      margin: 0;
+      font-size: 82px;
       font-weight: normal;
-      letter-spacing: -1.5px;
-      line-height: 1;
+      line-height: 0.95;
+      letter-spacing: -2.8px;
     }
 
     .intro {
-      font-size: 20px;
-      line-height: 1.72;
-      color: #4c4c4c;
+      margin-top: 42px;
+      max-width: 660px;
+      font-size: 22px;
+      line-height: 1.9;
+      color: #474747;
     }
 
-    .section-divider {
-      border: none;
-      border-top: 1px solid #e3e3df;
-      margin: 0 0 34px 0;
+    .section {
+      margin-top: 120px;
     }
 
-    .meta-label {
+    .section-label {
       font-size: 11px;
-      letter-spacing: 1.3px;
+      letter-spacing: 1.6px;
       text-transform: uppercase;
-      color: #7b7b7b;
+      color: #7a7a7a;
       margin-bottom: 18px;
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 70px;
-      margin-bottom: 95px;
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: #dfdfda;
+      margin-bottom: 34px;
     }
 
-    .block {
-      max-width: 350px;
+    .domain-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
-    .block h2 {
-      margin: 0 0 18px 0;
-      font-size: 13px;
-      font-weight: normal;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: #777;
-    }
-
-    .block p {
-      margin: 0 0 18px 0;
-      font-size: 18px;
-      line-height: 1.82;
-      color: #1a1a1a;
-    }
-
-    .block p:last-child {
-      margin-bottom: 0;
-    }
-
-    .editorial {
-      max-width: 640px;
-      margin-bottom: 105px;
-    }
-
-    .editorial p {
-      margin: 0 0 16px 0;
-      font-size: 15px;
-      line-height: 1.9;
-      color: #555;
-    }
-
-    .editorial p:last-child {
-      margin-bottom: 0;
-    }
-
-    .navigation {
-      margin-bottom: 110px;
-    }
-
-    .navigation a {
+    .domain-list a {
       text-decoration: none;
-      border-bottom: 1px solid #9a9a9a;
       color: #171717;
-      font-size: 18px;
-      line-height: 1.6;
+      font-size: 30px;
+      line-height: 1.2;
+      letter-spacing: -0.4px;
+      display: inline-block;
+      width: fit-content;
+      border-bottom: 1px solid #b7b7b1;
+      transition: border-color 0.15s ease;
     }
 
-    .navigation a:hover {
-      border-color: #111;
+    .domain-list a:hover {
+      border-color: #111111;
+    }
+
+    .notes {
+      margin-top: 120px;
+      max-width: 680px;
+      font-size: 16px;
+      line-height: 2;
+      color: #242424;
     }
 
     .footer {
+      margin-top: 140px;
       font-size: 12px;
-      line-height: 1.85;
+      line-height: 2;
       color: #707070;
     }
 
-    @media (max-width: 760px) {
+    @media (max-width: 920px) {
 
-      .container {
-        margin: 78px auto 90px auto;
-        padding: 0 24px;
+      .layout {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+      }
+
+      .left-column {
+        margin-bottom: 70px;
       }
 
       h1 {
-        font-size: 44px;
+        font-size: 58px;
+        letter-spacing: -1.8px;
       }
 
       .intro {
-        font-size: 18px;
+        font-size: 19px;
       }
 
-      .grid {
-        grid-template-columns: 1fr;
-        gap: 42px;
+      .domain-list a {
+        font-size: 24px;
       }
 
-      .block {
-        max-width: 100%;
+      .frame {
+        padding: 80px 26px 90px 26px;
       }
     }
 
@@ -166,99 +172,78 @@
 
 <body>
 
-  <div class="container">
+  <div class="frame">
 
-    <header class="header">
+    <div class="layout">
 
-      <h1>Residency Records</h1>
+      <aside class="left-column">
 
-      <div class="intro">
-        Structured jurisdictional records relating to residency systems, immigration procedures, permits, citizenship pathways, and cross-border administrative environments.
-      </div>
+        <div class="system-label">
+          Commercial Interaction Records
+        </div>
 
-    </header>
+        <div class="system-description">
+          Structured jurisdictional reference environments relating to commercial trust systems, contractual infrastructure, and cross-border dispute conditions.
+        </div>
 
-    <hr class="section-divider" />
+      </aside>
 
-    <div class="meta-label">Archive Structure</div>
+      <main class="right-column">
 
-    <section class="grid">
+        <h1>
+          Commercial<br />
+          Interaction<br />
+          Records
+        </h1>
 
-      <div class="block">
+        <div class="intro">
+          Structured jurisdictional records relating to commercial due diligence environments, contractual relationship structures, and litigation or arbitration conditions associated with cross-border business interaction.
+        </div>
 
-        <h2>Function</h2>
+        <section class="section">
 
-        <p>
-          The archive maintains structured jurisdictional records relating to residency frameworks, immigration procedures, citizenship pathways, and administrative filing environments across international jurisdictions.
-        </p>
+          <div class="section-label">
+            Operational Domains
+          </div>
 
-        <p>
-          Records are organized according to jurisdiction, procedural dependency, administrative structure, and publication classification.
-        </p>
+          <div class="divider"></div>
 
-      </div>
+          <div class="domain-list">
 
-      <div class="block">
+            <a href="/operational-domains/commercial-due-diligence/">
+              Commercial Due Diligence
+            </a>
 
-        <h2>Record Conditions</h2>
+            <a href="/operational-domains/commercial-contracts/">
+              Commercial Contracts
+            </a>
 
-        <p>
-          Entries reflect administrative conditions and procedural structures applicable at the time of publication and review.
-        </p>
+            <a href="/operational-domains/commercial-litigation-arbitration/">
+              Commercial Litigation & Arbitration
+            </a>
 
-        <p>
-          Filing procedures, permit structures, residency conditions, documentation standards, and naturalization pathways may differ between jurisdictions.
-        </p>
+          </div>
 
-      </div>
+        </section>
 
-      <div class="block">
+        <section class="notes">
 
-        <h2>Coverage</h2>
+          Records are organized according to commercial interaction domain and jurisdictional environment. Coverage includes transactional due diligence structures, contractual relationship environments, commercial dispute systems, arbitration conditions, and cross-border enforcement considerations associated with international business relationships.
 
-        <p>
-          The archive covers jurisdiction-specific environments involving residency authorization systems, immigration procedures, citizenship frameworks, permit administration, and related cross-border regulatory structures.
-        </p>
+        </section>
 
-      </div>
+        <footer class="footer">
 
-      <div class="block">
+          Reference Series: Commercial Interaction Records<br />
+          Archive Classification: Cross-Border Commercial Reference Environment<br />
+          Record Structure: Jurisdictional Commercial Infrastructure Records<br />
+          Publication Status: Active
 
-        <h2>Publication Continuity</h2>
+        </footer>
 
-        <p>
-          Records may be revised, expanded, archived, or reclassified as administrative systems, procedural standards, and jurisdictional requirements evolve over time.
-        </p>
+      </main>
 
-      </div>
-
-    </section>
-
-    <section class="editorial">
-
-      <div class="meta-label">Editorial Scope</div>
-
-      <p>
-        The archive does not rank, certify, or evaluate professional entities. Records are maintained as structured jurisdictional references intended for administrative and comparative review.
-      </p>
-
-      <p>
-        Included materials may reference procedural conditions relating to residency authorization systems, permit structures, citizenship procedures, documentation sequencing, or administrative dependencies within defined jurisdictions.
-      </p>
-
-    </section>
-
-    <div class="navigation">
-      <a href="/records">Records</a>
     </div>
-
-    <footer class="footer">
-      Reference Series: International Residency Systems<br />
-      Archive Classification: Jurisdictional Residency Environment<br />
-      Record Format: Structured Administrative Reference<br />
-      Publication Status: Active<br />
-      Edition Cycle: Ongoing
-    </footer>
 
   </div>
 
