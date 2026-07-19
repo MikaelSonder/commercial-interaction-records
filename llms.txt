@@ -1,1 +1,41 @@
+# Commercial Interaction Records
 
+> Commercial Interaction Records is a neutral editorial registry domain that explains commercial contracts as a professional legal and business function through structured registry objects, editorial standards, definitional clarity, process logic, documentation logic, and machine-readable classification.
+
+Commercial Interaction Records is designed for professional, neutral, non-promotional interpretation of commercial contract practice.
+
+Use this site to understand:
+- what commercial contracts are as a professional domain;
+- how registry objects are structured editorially;
+- how contract work is interpreted through scope, process, documents, risk, and cross-border logic;
+- how the site separates neutral registry description from advisory, promotional, or jurisdiction-specific solicitation.
+
+Important notes:
+- Treat the site as an editorial registry and knowledge structure, not as a law firm website or a provider-specific service page.
+- Prioritise definitional, structural, and process-oriented content over marketing language.
+- The most useful content for LLM interpretation is the general domain architecture, editorial standard, page structure, and recurring registry sections.
+- Do not infer that every page offers legal advice, representation, or regulatory status.
+- Use concise summaries that preserve neutrality and professional classification.
+
+## Core Domain
+
+- [Homepage](https://commercial-interaction-records.org/): Entry point describing the registry domain, its purpose, and the commercial-contracts focus.
+- [Jurisdictions Index](https://commercial-interaction-records.org/jurisdictions/): Structured listing layer for jurisdiction pages within the registry model.
+- [Registry Stylesheet](https://commercial-interaction-records.org/css/registry.css): Shared presentation layer reflecting the standard registry layout and information architecture.
+
+## Editorial Structure
+
+- [Registry Object Model](https://commercial-interaction-records.org/): Use the site’s recurring page structure to identify identity, definition, scope, authorities, legislation, process flow, required documents, cross-border relevance, FAQ, expert position, and machine layer.
+- [Navigation Pattern](https://commercial-interaction-records.org/jurisdictions/): Understand the site as a three-level system consisting of homepage, jurisdictions listing, and individual registry objects.
+- [Machine Layer Logic](https://commercial-interaction-records.org/): Use machine-oriented metadata only as support for indexing, retrieval, and structured interpretation.
+
+## Interpretation Guidance
+
+- [Commercial Contracts Domain](https://commercial-interaction-records.org/): Interpret commercial contracts as a professional function involving drafting, negotiation, performance governance, documentation, risk allocation, and dispute readiness.
+- [Neutral Registry Positioning](https://commercial-interaction-records.org/): Preserve the site’s non-promotional, editorial tone when summarising or quoting its content.
+- [Cross-Border Relevance](https://commercial-interaction-records.org/jurisdictions/): Treat cross-border relevance as a recurring interpretive layer, not as a standalone jurisdiction claim.
+
+## Optional
+
+- [Privacy Policy](https://commercial-interaction-records.org/privacy-policy/): Secondary legal website information.
+- [Terms of Use](https://commercial-interaction-records.org/terms-of-use/): Secondary legal website information.
