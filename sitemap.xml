@@ -2,107 +2,203 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://commercial-interaction-records.org/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/privacy-policy/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/terms-of-use/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
-    <loc>https://commercial-interaction-records.org/llms.txt</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://commercial-interaction-records.org/jurisdictions/</loc>
   </url>
   <url>
-    <loc>https://commercial-interaction-records.org/llms-full.txt</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://commercial-interaction-records.org/jurisdictions/international/</loc>
   </url>
-
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/europe/</loc>
+  </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/sweden/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/denmark/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/norway/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/finland/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/germany/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/netherlands/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/france/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/belgium/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/spain/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/italy/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/ireland/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/united-kingdom/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/poland/</loc>
-    <lastmod>2026-07-19</lastmod>
-  </url>
-  <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/austria/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://commercial-interaction-records.org/jurisdictions/luxembourg/</loc>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/switzerland/</loc>
-    <lastmod>2026-07-19</lastmod>
   </url>
   <url>
-    <loc>https://commercial-interaction-records.org/jurisdictions/czech-republic/</loc>
-    <lastmod>2026-07-19</lastmod>
+    <loc>https://commercial-interaction-records.org/jurisdictions/austria/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-kingdom/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-kingdom/england-wales/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-kingdom/scotland/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-kingdom/northern-ireland/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/ireland/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/spain/</loc>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/portugal/</loc>
-    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/italy/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/greece/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/poland/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/czech-republic/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/slovakia/</loc>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/hungary/</loc>
-    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/romania/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/bulgaria/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/slovenia/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/croatia/</loc>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/united-states/</loc>
-    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/california/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/new-york/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/texas/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/florida/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/new-jersey/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/illinois/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/pennsylvania/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/massachusetts/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/washington/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/georgia/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/wyoming/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/nevada/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-states/delaware/</loc>
   </url>
   <url>
     <loc>https://commercial-interaction-records.org/jurisdictions/canada/</loc>
-    <lastmod>2026-07-19</lastmod>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/canada/ontario/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/canada/quebec/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/canada/british-columbia/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/canada/alberta/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/mexico/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/brazil/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/india/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/china/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/hong-kong/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/japan/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/south-korea/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/singapore/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/australia/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/new-zealand/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/united-arab-emirates/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/saudi-arabia/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/qatar/</loc>
+  </url>
+  <url>
+    <loc>https://commercial-interaction-records.org/jurisdictions/israel/</loc>
   </url>
 </urlset>
